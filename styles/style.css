@@ -96,6 +96,10 @@ hr {
     width: 177px;
     height: 117px;
 }
+.blog-image img:hover{
+  transform: scale(1.05);
+  transition: transform .50s;
+}
 .blog-title{
   font-weight: 500;
   font-size: 20px;
@@ -133,6 +137,10 @@ hr {
   width: 224px;
   height: 104px;
 }
+.thumbal img:hover{
+  transform: scale(1.05);
+  transition: transform .50s;
+}
 .course-title{
   font-weight: 500;
   font-size: 20.0336px;
@@ -140,7 +148,6 @@ hr {
 .course-detail .author{
   color: #ED6B4F;
   font-size: 14.6913px;
-
 }
 .course-info{
   display: flex;
@@ -153,4 +160,13 @@ hr {
 .empty{
   color: #AEAEAE;
   opacity: 0.25;
+}
+.class-duration{
+  width: 94px;
+  height: 30px;
+  background-color: #f39c88a2;
+  border-radius: 25px;
+  padding:3px;
+  color: rgb(248, 83, 83);
+  text-align: center;
 }
